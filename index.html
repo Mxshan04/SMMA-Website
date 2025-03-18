@@ -143,6 +143,27 @@
             background: var(--primary-color);
             transform: translateY(-3px);
         }
+        
+        /* Vision & Mission Section Styles */
+        .vision-mission-card {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+            transition: all 0.3s ease;
+            border-top: 4px solid var(--primary-color);
+            padding: 2rem;
+        }
+        
+        .vision-mission-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .vision-mission-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
     </style>
 </head>
 <body>
@@ -162,6 +183,12 @@
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#vision-mission">Vision & Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -174,7 +201,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center hero-content">
-                    <h1 class="hero-title mb-4">Elevate Your Social Media Presence</h1>
+                    <h1 class="hero-title mb-4">Elevate Your Social Media Presence With Skyline Socials</h1>
                     <p class="hero-subtitle mb-5">We help businesses grow through strategic social media management and compelling content creation.</p>
                     <a href="#contact" class="btn btn-light hero-btn">Get Started</a>
                 </div>
@@ -182,8 +209,78 @@
         </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-img">
+                        <img src="https://www.searchenginejournal.com/wp-content/uploads/2021/08/top-5-reasons-why-you-need-a-social-media-manager-616015983b3ba-sej.png" alt="About Us" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="mb-4">Skyline Socials is a dedicated social media management agency focused on helping businesses establish and grow their online presence. With our expert team of social media strategists, content creators, and community managers, we develop and implement comprehensive social media strategies that drive engagement, increase brand awareness, and generate leads.</p>
+                    <p class="mb-4">Founded in 2022, we've helped over 50 businesses across various industries achieve their social media goals. Our approach combines data-driven insights with creative excellence to deliver results that matter to your bottom line.</p>
+                    <div class="row mt-5">
+                        <div class="col-6 col-md-3 mb-3">
+                            <h3 class="fw-bold text-primary">50+</h3>
+                            <p class="text-muted">Clients</p>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <h3 class="fw-bold text-primary">3+</h3>
+                            <p class="text-muted">Years</p>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <h3 class="fw-bold text-primary">12</h3>
+                            <p class="text-muted">Team Members</p>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <h3 class="fw-bold text-primary">5</h3>
+                            <p class="text-muted">Industries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision-mission" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row mb-5">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2 class="fw-bold mb-3">Our Vision & Mission</h2>
+                    <p class="text-muted">Guiding principles that drive everything we do at Skyline Socials</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="vision-mission-card bg-white">
+                        <div class="vision-mission-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3 class="mb-4">Our Vision</h3>
+                        <p class="mb-3">To be the leading catalyst in transforming how businesses connect with their audiences in the digital landscape.</p>
+                        <p class="mb-0">We envision a world where every business, regardless of size, can harness the power of social media to create meaningful relationships with their customers, drive sustainable growth, and make a lasting impact in their industry.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="vision-mission-card bg-white">
+                        <div class="vision-mission-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3 class="mb-4">Our Mission</h3>
+                        <p class="mb-3">To empower businesses with innovative social media strategies and compelling content that authentically represents their brand voice and resonates with their target audience.</p>
+                        <p class="mb-0">We are committed to delivering measurable results through data-driven approaches, creative excellence, and continuous adaptation to the ever-evolving social media landscape, ensuring our clients stay ahead of the curve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Services Section -->
-    <section id="services" class="py-5 bg-light">
+    <section id="services" class="py-5">
         <div class="container py-5">
             <div class="row mb-5">
                 <div class="col-lg-6 mx-auto text-center">
@@ -229,42 +326,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="about-img">
-                        <img src="https://www.searchenginejournal.com/wp-content/uploads/2021/08/top-5-reasons-why-you-need-a-social-media-manager-616015983b3ba-sej.png" alt="About Us" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h2 class="section-title">About Us</h2>
-                    <p class="mb-4">Skyline Socials is a dedicated social media management agency focused on helping businesses establish and grow their online presence. With our expert team of social media strategists, content creators, and community managers, we develop and implement comprehensive social media strategies that drive engagement, increase brand awareness, and generate leads.</p>
-                    <p class="mb-4">Founded in 2022, we've helped over 50 businesses across various industries achieve their social media goals. Our approach combines data-driven insights with creative excellence to deliver results that matter to your bottom line.</p>
-                    <div class="row mt-5">
-                        <div class="col-6 col-md-3 mb-3">
-                            <h3 class="fw-bold text-primary">50+</h3>
-                            <p class="text-muted">Clients</p>
-                        </div>
-                        <div class="col-6 col-md-3 mb-3">
-                            <h3 class="fw-bold text-primary">3+</h3>
-                            <p class="text-muted">Years</p>
-                        </div>
-                        <div class="col-6 col-md-3 mb-3">
-                            <h3 class="fw-bold text-primary">12</h3>
-                            <p class="text-muted">Team Members</p>
-                        </div>
-                        <div class="col-6 col-md-3 mb-3">
-                            <h3 class="fw-bold text-primary">5</h3>
-                            <p class="text-muted">Industries</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact" class="py-5 bg-light">
         <div class="container py-5">
@@ -277,7 +338,6 @@
             <div class="row g-4">
                 <div class="col-lg-5">
                     <div class="row g-4 h-100">
-                       
                         <div class="col-md-8">
                             <div class="contact-info-box">
                                 <div class="contact-icon">
@@ -348,6 +408,7 @@
                     <ul class="list-unstyled mb-0">
                         <li class="mb-2"><a href="#home" class="text-white-50 text-decoration-none">Home</a></li>
                         <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="#vision-mission" class="text-white-50 text-decoration-none">Vision & Mission</a></li>
                         <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Services</a></li>
                         <li class="mb-2"><a href="#contact" class="text-white-50 text-decoration-none">Contact</a></li>
                     </ul>
